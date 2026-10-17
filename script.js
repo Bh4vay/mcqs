@@ -1,257 +1,205 @@
 const questions = [
   {
     question:
-      "Consider the following statements about the Andes Mountains:\n\n1. They form a nearly continuous mountain chain along the western margin of South America.\n2. They are associated with the subduction of the Nazca Plate beneath the South American Plate.\n3. They contain the highest peak in the world outside Asia.\n\nWhich of the statements given above is/are correct?",
+      "With reference to the traditional principles of Indian painting, consider the following pairs:\n\n1. Rupabheda — Variety of forms and appearances\n2. Pramana — Proportion and measurement\n3. Sadrisyam — Use of brushes and colours\n4. Varnikabhanga — Resemblance to the subject\n\nWhich of the pairs given above are correctly matched?",
+    options: ["1 and 2 only", "1 and 3 only", "2 and 4 only", "1, 2, 3 and 4"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about prehistoric Indian paintings:\n\n1. Bhimbetka in Madhya Pradesh is associated with prehistoric rock art.\n2. Mesolithic paintings generally show a reduction in size and an increase in the use of red colour.\n3. Chalcolithic paintings include battle scenes, riders and complex geometrical shapes.\n\nWhich of the statements given above are correct?",
     options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
     answer: 3,
   },
   {
     question:
-      "Consider the following pairs:\n\nFeature - Country\n1. Atacama Desert - Chile\n2. Salar de Uyuni - Bolivia\n3. Angel Falls - Venezuela\n4. Galapagos Islands - Peru\n\nWhich of the pairs given above are correctly matched?",
-    options: [
-      "1, 2 and 3 only",
-      "1 and 4 only",
-      "2 and 3 only",
-      "1, 2, 3 and 4",
-    ],
+      "Consider the following statements about Ajanta paintings:\n\n1. Ajanta comprises 29 caves arranged in a horseshoe-shaped formation.\n2. Important themes include Buddhist narratives and Jataka stories.\n3. The outlines of figures are characteristically painted in blue ochre.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
     answer: 0,
   },
   {
     question:
-      "The exceptional dryness of the Atacama Desert is associated with which of the following?\n\n1. Cold Humboldt Current\n2. Subtropical high-pressure conditions\n3. Rain-shadow effects of the Andes\n4. Persistent warm ocean currents along the coast\n\nSelect the correct answer:",
-    options: [
-      "1, 2 and 3 only",
-      "1 and 4 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 0,
+      "Consider the following statements about Ellora cave paintings:\n\n1. Paintings at Ellora are associated exclusively with Buddhism.\n2. The paintings are associated with Buddhist, Jain and Hindu traditions.\n3. The paintings were executed in two phases, including work done centuries after the caves were carved.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 1,
   },
   {
     question:
-      "With reference to the Humboldt Current, consider the following statements:\n\n1. It is a cold ocean current.\n2. It flows along the western coast of South America.\n3. It contributes to nutrient-rich coastal upwelling.\n4. It is an important factor behind the productivity of fisheries along the Peru-Chile coast.\n\nWhich of the above are correct?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 3 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
+      "Consider the following pairs related to Indian mural paintings:\n\n1. Bagh Caves — Stronger outlines, tightly modelled figures and a more secular character\n2. Sittanavasal — Jain themes and depictions of a lotus pool\n3. Ravan Chhaya — Rock shelters shaped like a half-opened umbrella and a royal procession\n\nWhich of the pairs given above are correctly matched?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
     answer: 3,
   },
   {
     question:
-      "Which one of the following correctly explains the importance of the Peru-Chile coastal waters?",
-    options: [
-      "Warm currents increase evaporation and create extensive coral reefs.",
-      "Cold-water upwelling brings nutrients from deeper waters, supporting productive fisheries.",
-      "High precipitation produces extensive freshwater fisheries.",
-      "Melting glaciers continuously replenish marine nutrients.",
-    ],
-    answer: 1,
-  },
-  {
-    question:
-      "Consider the following countries:\n\n1. Colombia\n2. Ecuador\n3. Brazil\n4. Peru\n\nWhich of the above are crossed by the Equator?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 3 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 1,
-  },
-  {
-    question: "Which of the following pairs is incorrectly matched?",
-    options: [
-      "Pampas - Argentina and Uruguay",
-      "Llanos - Venezuela and Colombia",
-      "Patagonia - Argentina and Chile",
-      "Altiplano - Brazil and Paraguay",
-    ],
-    answer: 3,
-  },
-  {
-    question:
-      "Consider the following rivers:\n\n1. Parana\n2. Paraguay\n3. Uruguay\n4. Amazon\n\nWhich of the above are associated with the Rio de la Plata drainage system?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 3 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 1,
-  },
-  {
-    question:
-      "Lake Titicaca is particularly significant geographically because:",
-    options: [
-      "It is the world's largest freshwater lake.",
-      "It is located entirely within Bolivia.",
-      "It lies at high altitude in the Andes on the Peru-Bolivia border.",
-      "It is fed primarily by the Amazon River.",
-    ],
-    answer: 2,
-  },
-  {
-    question:
-      "Consider the following statements about the Amazon Basin:\n\n1. It receives substantial rainfall throughout much of the year.\n2. Its enormous river discharge is related to its vast drainage basin and high precipitation.\n3. Most of the Amazon Basin lies in Brazil.\n4. The Amazon River flows into the Pacific Ocean.\n\nWhich of the statements are correct?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 3 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 1,
-  },
-  {
-    question: "Which of the following best describes the Guiana Shield?",
-    options: [
-      "A young fold mountain system along the Pacific coast",
-      "An ancient geological region in northeastern South America",
-      "A volcanic island chain in the Atlantic",
-      "A sedimentary basin forming the core of the Amazon",
-    ],
-    answer: 1,
-  },
-  {
-    question:
-      "Consider the following statements about French Guiana:\n\n1. It is located in South America.\n2. It is an overseas department/region of France.\n3. It is a sovereign independent country.\n4. It uses the euro.\n\nWhich of the statements given above are correct?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 4 only",
-      "1, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 1,
-  },
-  {
-    question: "The Lithium Triangle generally refers to parts of:",
-    options: [
-      "Brazil, Peru and Ecuador",
-      "Bolivia, Chile and Argentina",
-      "Colombia, Venezuela and Guyana",
-      "Argentina, Brazil and Uruguay",
-    ],
-    answer: 1,
-  },
-  {
-    question:
-      "Which of the following resources are particularly associated with Chile?\n\n1. Copper\n2. Lithium\n3. Petroleum\n4. Nitrates\n\nSelect the correct answer:",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 4 only",
-      "2 and 3 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 1,
-  },
-  {
-    question:
-      "Consider the following statements regarding El Nino:\n\n1. It involves abnormal warming of parts of the tropical Pacific Ocean.\n2. It can weaken the normal upwelling along the Peru-Ecuador coast.\n3. It can adversely affect fisheries along the western coast of South America.\n4. It always causes drought throughout South America.\n\nWhich are correct?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 3 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 1,
-  },
-  {
-    question: "Which one of the following correctly describes the Pampas?",
-    options: [
-      "Tropical rainforest surrounding the Amazon River",
-      "Temperate grasslands primarily associated with Argentina and Uruguay",
-      "High-altitude grasslands of Bolivia",
-      "Desert region of northern Chile",
-    ],
-    answer: 1,
-  },
-  {
-    question:
-      "Which of the following countries has coastlines on both the Pacific Ocean and the Caribbean Sea?",
-    options: ["Ecuador", "Peru", "Colombia", "Venezuela"],
-    answer: 2,
-  },
-  {
-    question:
-      "Match the following:\n\nLandform/region - Associated feature\n1. Atacama - Cold-current influenced aridity\n2. Pampas - Temperate agriculture\n3. Llanos - Orinoco Basin\n4. Altiplano - High-altitude plateau\n\nWhich of the above pairs are correctly matched?",
-    options: [
-      "1 and 2 only",
-      "1, 2 and 3 only",
-      "2, 3 and 4 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 3,
-  },
-  {
-    question:
-      "The Amazon rainforest's role in regional rainfall is strongly connected with:",
-    options: [
-      "Evapotranspiration and atmospheric moisture recycling",
-      "Permanent snow cover over the Andes",
-      "Cold-water upwelling in the Atlantic",
-      "Subtropical deserts surrounding the basin",
-    ],
-    answer: 0,
-  },
-  {
-    question: "Which of the following statements about Aconcagua is correct?",
-    options: [
-      "It is the highest mountain in the world.",
-      "It is located in Chile and forms part of the coastal range.",
-      "It is the highest mountain outside Asia and is located in Argentina.",
-      "It is an active volcano in Ecuador.",
-    ],
-    answer: 2,
-  },
-  {
-    question:
-      "Consider the following pairs:\n\nRegion - Major geographical association\n1. Atacama - Peru Current\n2. Amazon - Equatorial climate\n3. Pampas - Temperate grasslands\n4. Patagonia - Southern South America\n\nHow many pairs are correctly matched?",
+      "Consider the following pairs related to Indian mural painting sites:\n\n1. Armamalai — Jain religious themes and depictions of the Ashtadikpalakas\n2. Lepakshi — Vijayanagara-period paintings associated with the Veerabhadra Temple\n3. Jogimara — Brahmi script and the nearby rock-cut theatre of Sitabenga\n4. Badami — Early surviving Hindu paintings, including a depiction of four-armed Brahma on a swan in Cave 3\n\nHow many of the above pairs are correctly matched?",
     options: ["Only one", "Only two", "Only three", "All four"],
     answer: 3,
   },
   {
     question:
-      "If the Andes Mountains were absent, which of the following changes would most likely occur?",
+      "Consider the following statements about early miniature painting schools in India:\n\n1. The Pala school was associated with Buddhism and centres such as Nalanda and Vikramashila.\n2. Pala paintings frequently used palm-leaf manuscripts and are associated with Vajrayana Buddhism.\n3. The Apabhramsha school was influenced by Jainism and associated with western Indian regions such as Gujarat and Rajasthan.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following statements about Mughal miniature painting:\n\n1. Akbar established an organised painting department and patronised artists such as Basawan and Daswanth.\n2. Jahangir's period is associated with naturalism, Ustad Mansoor and decorated margins.\n3. Shah Jahan's paintings were characterised by greater liveliness and less European influence than those of Jahangir.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about Rajasthani schools of painting:\n\n1. The Mewar school is associated with Sahibdin and paintings of the Ramayana and Bhagavata Purana.\n2. The Kishangarh school is renowned for Bani Thani and devotional and romantic depictions of Radha and Krishna.\n3. Bundi and Kota are collectively known as the Shekhawati school.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about the Pahari school of painting:\n\n1. Basohli is regarded as an early centre of Pahari painting, characterised by bold lines and glowing colours.\n2. The Guler school is associated with naturalistic portraits and soft, cool colours.\n3. Kangra painting developed directly out of the Basohli school, without any connection to Guler.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about Tanjore and Mysore paintings:\n\n1. Tanjore paintings are known for brilliant colours and liberal use of gold, with Maratha patronage associated with Maharaja Serfoji II.\n2. Mysore paintings use gesso paste and often emphasise a principal figure.\n3. According to the supplied module, only Mysore paintings have a Geographical Indication (GI) tag.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following pairs related to Indian folk painting traditions:\n\n1. Madhubani — Mithila region of Bihar, geometric designs and symbolic motifs such as fish\n2. Pattachitra — Odisha, associated with the Jagannath and Vaishnava traditions\n3. Kalamkari — Andhra Pradesh, using cotton fabric, pointed bamboo tools and vegetable dyes\n\nWhich of the pairs given above are correctly matched?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following pairs related to Indian folk painting traditions:\n\n1. Warli — Geometric figures and white pigment made from a mixture of gum and rice powder\n2. Thangka — Buddhist painting traditionally executed on cotton canvas\n3. Manjusha — Snake painting associated with Bhagalpur and the Anga region of Bihar\n4. Phad — Scroll-type painting associated with Rajasthan\n\nHow many of the above pairs are correctly matched?",
+    options: ["Only one", "Only two", "Only three", "All four"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following statements about modern Indian painting schools:\n\n1. The Bengal School incorporated Swadeshi values and is associated with Abanindranath Tagore and Nandalal Bose.\n2. Company paintings rejected European influence entirely and used only traditional Indian techniques.\n3. Bazaar paintings incorporated European influence, including Roman and Greek elements.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 2,
+  },
+  {
+    question:
+      "Consider the following statements about modern Indian artists:\n\n1. Raja Ravi Varma blended Indian themes with Western techniques of colour and style.\n2. Amrita Sher-Gil is associated with Impressionism, Expressionism and related modern artistic trends.\n3. The Progressive Artists' Group included artists such as F.N. Souza, S.H. Raza and M.F. Husain.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following statements about miniature paintings:\n\n1. The term is derived from minium, meaning red-lead paint.\n2. Miniature paintings are characterised primarily by monumental scale and large wall surfaces.\n3. Miniature paintings are small and detailed.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 2,
+  },
+  {
+    question:
+      "With reference to the Natya Shastra and Abhinaya Darpan, consider the following statements:\n\n1. Lasya represents grace, emotion and the feminine aspects of dance.\n2. Tandava is primarily associated with the feminine aspects of dance and excludes rhythmic movement.\n3. Nritta refers to basic dance movements without expression, while Nritya conveys sentiment and emotion.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 2,
+  },
+  {
+    question:
+      "Consider the following pairs related to the nine rasas of Indian dance:\n\n1. Shringara — Love\n2. Roudra — Disgust\n3. Bhayanaka — Horror\n4. Adbhuta — Wonder\n\nWhich of the pairs given above are correctly matched?",
     options: [
-      "The Amazon River would necessarily flow westward.",
-      "The present-day rain-shadow patterns and atmospheric circulation over western South America would be substantially altered.",
-      "The Humboldt Current would disappear.",
-      "The Equator would shift southward.",
+      "1 and 2 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4",
     ],
     answer: 1,
   },
   {
     question:
-      "Consider the following statements:\n\n1. Brazil occupies a substantial portion of the Amazon Basin.\n2. The Amazon River drains into the Atlantic Ocean.\n3. The Andes lie to the west of the Amazon Basin.\n4. The Atacama Desert lies east of the Andes.\n\nWhich are correct?",
-    options: [
-      "1, 2 and 3 only",
-      "1 and 4 only",
-      "2 and 3 only",
-      "1, 2, 3 and 4",
-    ],
-    answer: 0,
-  },
-  {
-    question: "Which of the following combinations is most appropriate?",
-    options: [
-      "Humboldt Current - Warm current - Western South America",
-      "Brazil Current - Cold current - Eastern South America",
-      "Humboldt Current - Cold current - Western South America",
-      "Falkland Current - Warm current - Southern Atlantic",
-    ],
+      "Consider the following statements about Bharatanatyam:\n\n1. Jatiswaram is a Nritta component without expressive Abhinaya.\n2. Padam refers to short love lyrics performed at a faster tempo.\n3. Thillana is generally the concluding performance in the sequence described in the module.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
     answer: 2,
   },
   {
     question:
-      "Consider the following:\n\n1. Nazca Plate\n2. South American Plate\n3. Andes\n4. Earthquakes and volcanism\n\nWhich of the following represents the most appropriate relationship?",
-    options: [
-      "1 -> subduction beneath 2 -> Andes formation -> seismic/volcanic activity",
-      "2 -> subduction beneath 1 -> Andes formation",
-      "1 -> divergent boundary with 2 -> Andes formation",
-      "1 and 2 are both continental plates with no significant interaction",
-    ],
+      "Consider the following statements about Kuchipudi:\n\n1. Siddhendra Yogi is credited with formalising the Kuchipudi tradition in the 17th century.\n2. Tarangam involves drawing pictures on the floor with the toes.\n3. Kuchipudi combines Nritta, Nritya and Natya.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 2,
+  },
+  {
+    question:
+      "Consider the following statements about Kathakali and Mohiniattam:\n\n1. Kathakali evolved in relation to the dance-dramas Ramanattam and Krishnattam.\n2. Kathakali uses elaborate facial make-up, and its performance language is described as Manipravalam, combining Malayalam and Sanskrit.\n3. Mohiniattam is characterised by forceful, thumping footwork and the dominance of Tandava.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
     answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about Odissi:\n\n1. Tribhanga is a three-bend body posture associated with Odissi.\n2. The Gita Govinda, composed by Jayadeva, is an important source of Odissi repertoire.\n3. Mangalacharan is the concluding item in which the dancer takes leave of the audience and stage.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about Manipuri dance:\n\n1. The festival of Lai Haraoba is associated with the origins of Manipuri dance.\n2. Manipuri dance gained prominence with the spread of Vaishnavism in the 15th century.\n3. Manipuri dance places greater emphasis on sensuality than on devotion.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following pairs related to Kathak gharanas:\n\n1. Lucknow — Emphasis on expression and grace\n2. Jaipur — Fluency, speed and long rhythmic patterns\n3. Raigarh — Emphasis on percussion music\n4. Banaras — Greater use of floorwork and emphasis on symmetry\n\nHow many of the above pairs are correctly matched?",
+    options: ["Only one", "Only two", "Only three", "All four"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following statements about Sattriya dance:\n\n1. Sattriya was introduced by Shankaradeva in Assam in the 15th century.\n2. Sattras are Vaishnava monasteries.\n3. Borgeets are devotional songs associated with Shankaradeva.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following pairs related to classical dance forms of India:\n\n1. Bharatanatyam — Tamil Nadu\n2. Kathak — Uttar Pradesh\n3. Kuchipudi — Andhra Pradesh\n4. Sattriya — Manipur\n\nWhich of the pairs given above are correctly matched?",
+    options: ["1 and 2 only", "1, 2 and 3 only", "2, 3 and 4 only", "All four"],
+    answer: 1,
+  },
+  {
+    question:
+      "Consider the following pairs related to Chhau dance:\n\n1. Saraikella Chhau — Jharkhand; performed with masks\n2. Mayurbhanj Chhau — Odisha; performed without masks\n3. Purulia Chhau — West Bengal; performed without masks\n\nWhich of the pairs given above are correctly matched?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following statements about folk dances of western and northern India:\n\n1. Garba is associated with Gujarat and is performed during Navaratri.\n2. Kalbelia is associated with Rajasthan, and its movements and costumes resemble those of serpents.\n3. Giddha is traditionally the male counterpart of Bhangra.\n\nWhich of the statements given above are correct?",
+    options: ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    answer: 0,
+  },
+  {
+    question:
+      "Consider the following pairs related to folk dances of central and eastern India:\n\n1. Jawara — Bundelkhand, Madhya Pradesh; balancing a basket of jawar on the head\n2. Matki — Malwa, Madhya Pradesh; balancing earthen pots on the head\n3. Gaur Maria — Bastar, Chhattisgarh; imitating the movements of a bison\n4. Paika — Odisha; a martial folk dance associated with battle and the spear\n\nHow many of the above pairs are correctly matched?",
+    options: ["Only one", "Only two", "Only three", "All four"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following pairs related to folk dances of Bihar, Jharkhand and Odisha:\n\n1. Biraha — Portrays the pain of women whose partners are away; the performers are traditionally male\n2. Alkap — Rural dance-drama associated with parts of Jharkhand and West Bengal\n3. Jat-Jatin — Odisha; a martial dance involving swords\n4. Danda-Jatra — Odisha; a combination of dance, drama and music\n\nWhich of the pairs given above are correctly matched?",
+    options: [
+      "1 and 2 only",
+      "1, 2 and 4 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4",
+    ],
+    answer: 1,
+  },
+  {
+    question:
+      "Consider the following pairs related to folk dances of Northeast India:\n\n1. Bihu — Assam; performed in groups by men and women\n2. Thang-Ta — Manipur; a martial dance in which Thang means sword and Ta means spear\n3. Singhi Chham — Sikkim; a masked dance symbolising the snow lion\n4. Cheraw — Mizoram; performed using bamboo sticks\n5. Rangma — Nagaland; a war dance\n\nHow many of the above pairs are correctly matched?",
+    options: ["Only two", "Only three", "Only four", "All five"],
+    answer: 3,
+  },
+  {
+    question:
+      "Consider the following pairs related to southern Indian folk and traditional dance forms:\n\n1. Kummi — Tamil Nadu and Kerala; women dance in circular formations without accompanying music\n2. Mayilattam — Tamil Nadu and Kerala; performers dress like peacocks\n3. Butta Bommalu — Andhra Pradesh; dancers wear masks resembling toy-like figures\n4. Padayani — Kerala; a martial temple dance featuring large masks known as kolams\n5. Burrakatha — Andhra Pradesh; a single performer narrates stories from the Puranas\n\nHow many of the above pairs are correctly matched?",
+    options: ["Only two", "Only three", "Only four", "All five"],
+    answer: 3,
   },
 ];
 
@@ -262,152 +210,117 @@ let selectedAnswer = null;
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 
-const questionNumberElement =
-    document.getElementById("question-number");
+const questionNumberElement = document.getElementById("question-number");
 
-const scoreDisplay =
-    document.getElementById("score-display");
+const scoreDisplay = document.getElementById("score-display");
 
-const progressBar =
-    document.getElementById("progress-bar");
+const progressBar = document.getElementById("progress-bar");
 
-const nextButton =
-    document.getElementById("next-btn");
+const nextButton = document.getElementById("next-btn");
 
-const quizBox =
-    document.getElementById("quiz-box");
+const quizBox = document.getElementById("quiz-box");
 
-const resultBox =
-    document.getElementById("result-box");
+const resultBox = document.getElementById("result-box");
 
-const finalScore =
-    document.getElementById("final-score");
+const finalScore = document.getElementById("final-score");
 
-const percentage =
-    document.getElementById("percentage");
+const percentage = document.getElementById("percentage");
 
-const review =
-    document.getElementById("review");
+const review = document.getElementById("review");
 
 let userAnswers = [];
 
-
 // Load question
 function loadQuestion() {
+  selectedAnswer = null;
 
-    selectedAnswer = null;
+  const q = questions[currentQuestion];
 
-    const q = questions[currentQuestion];
+  questionElement.textContent = q.question;
 
-    questionElement.textContent = q.question;
+  questionNumberElement.textContent = `Question ${currentQuestion + 1} of ${questions.length}`;
 
-    questionNumberElement.textContent =
-        `Question ${currentQuestion + 1} of ${questions.length}`;
+  scoreDisplay.textContent = `Score: ${score}`;
 
-    scoreDisplay.textContent =
-        `Score: ${score}`;
+  progressBar.style.width = `${((currentQuestion + 1) / questions.length) * 100}%`;
 
-    progressBar.style.width =
-        `${((currentQuestion + 1) / questions.length) * 100}%`;
+  optionsElement.innerHTML = "";
 
-    optionsElement.innerHTML = "";
+  q.options.forEach((option, index) => {
+    const div = document.createElement("div");
 
-    q.options.forEach((option, index) => {
+    div.classList.add("option");
 
-        const div = document.createElement("div");
+    div.textContent = option;
 
-        div.classList.add("option");
+    div.addEventListener("click", () => {
+      selectedAnswer = index;
 
-        div.textContent = option;
+      document
+        .querySelectorAll(".option")
+        .forEach((opt) => opt.classList.remove("selected"));
 
-        div.addEventListener("click", () => {
-
-            selectedAnswer = index;
-
-            document
-                .querySelectorAll(".option")
-                .forEach(opt => opt.classList.remove("selected"));
-
-            div.classList.add("selected");
-
-        });
-
-        optionsElement.appendChild(div);
+      div.classList.add("selected");
     });
 
-    if (currentQuestion === questions.length - 1) {
-        nextButton.textContent = "Submit Quiz";
-    }
-}
+    optionsElement.appendChild(div);
+  });
 
+  if (currentQuestion === questions.length - 1) {
+    nextButton.textContent = "Submit Quiz";
+  }
+}
 
 // Next question
 nextButton.addEventListener("click", () => {
+  if (selectedAnswer === null) {
+    alert("Please select an answer.");
+    return;
+  }
 
-    if (selectedAnswer === null) {
-        alert("Please select an answer.");
-        return;
-    }
+  const correctAnswer = questions[currentQuestion].answer;
 
-    const correctAnswer =
-        questions[currentQuestion].answer;
+  userAnswers[currentQuestion] = selectedAnswer;
 
-    userAnswers[currentQuestion] = selectedAnswer;
+  if (selectedAnswer === correctAnswer) {
+    score++;
+  }
 
-    if (selectedAnswer === correctAnswer) {
-        score++;
-    }
+  currentQuestion++;
 
-    currentQuestion++;
-
-    if (currentQuestion < questions.length) {
-
-        loadQuestion();
-
-    } else {
-
-        showResult();
-
-    }
-
+  if (currentQuestion < questions.length) {
+    loadQuestion();
+  } else {
+    showResult();
+  }
 });
-
 
 // Show result
 function showResult() {
+  quizBox.classList.add("hidden");
 
-    quizBox.classList.add("hidden");
+  resultBox.classList.remove("hidden");
 
-    resultBox.classList.remove("hidden");
+  finalScore.textContent = `${score}/${questions.length}`;
 
-    finalScore.textContent =
-        `${score}/${questions.length}`;
+  const percentageValue = Math.round((score / questions.length) * 100);
 
-    const percentageValue =
-        Math.round((score / questions.length) * 100);
+  percentage.textContent = `You scored ${percentageValue}%`;
 
-    percentage.textContent =
-        `You scored ${percentageValue}%`;
+  review.innerHTML = "";
 
-    review.innerHTML = "";
+  questions.forEach((q, index) => {
+    const item = document.createElement("div");
 
-    questions.forEach((q, index) => {
+    item.classList.add("review-item");
 
-        const item =
-            document.createElement("div");
+    const userAnswer = q.options[userAnswers[index]];
 
-        item.classList.add("review-item");
+    const correctAnswer = q.options[q.answer];
 
-        const userAnswer =
-            q.options[userAnswers[index]];
+    const isCorrect = userAnswers[index] === q.answer;
 
-        const correctAnswer =
-            q.options[q.answer];
-
-        const isCorrect =
-            userAnswers[index] === q.answer;
-
-        item.innerHTML = `
+    item.innerHTML = `
             <div class="review-question">
                 ${index + 1}. ${q.question}
             </div>
@@ -421,29 +334,24 @@ function showResult() {
             </div>
         `;
 
-        review.appendChild(item);
-
-    });
-
+    review.appendChild(item);
+  });
 }
-
 
 // Restart
 function restartQuiz() {
+  currentQuestion = 0;
+  score = 0;
+  userAnswers = [];
 
-    currentQuestion = 0;
-    score = 0;
-    userAnswers = [];
+  resultBox.classList.add("hidden");
 
-    resultBox.classList.add("hidden");
+  quizBox.classList.remove("hidden");
 
-    quizBox.classList.remove("hidden");
+  nextButton.textContent = "Next";
 
-    nextButton.textContent = "Next";
-
-    loadQuestion();
+  loadQuestion();
 }
-
 
 // Start
 loadQuestion();
